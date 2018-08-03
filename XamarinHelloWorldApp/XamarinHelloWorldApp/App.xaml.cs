@@ -11,7 +11,7 @@ namespace XamarinHelloWorldApp
 		{
 			InitializeComponent();
 
-			MainPage = new AbsolutePage();
+			MainPage = new AbsoluteExercise2();
 		}
 
 		protected override void OnStart ()
