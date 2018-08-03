@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace XamarinHelloWorldApp
+namespace XamarinHelloWorldApp.StackLayout
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class AbsoluteExercise1 : ContentPage
+	public partial class StackLayoutPage1 : ContentPage
 	{
-		public AbsoluteExercise1 ()
+		public StackLayoutPage1 ()
 		{
 			InitializeComponent ();
 		}

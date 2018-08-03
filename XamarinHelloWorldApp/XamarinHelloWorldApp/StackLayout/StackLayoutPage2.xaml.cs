@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace XamarinHelloWorldApp
+namespace XamarinHelloWorldApp.StackLayout
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class GridPage : ContentPage
+	public partial class StackLayoutPage2 : ContentPage
 	{
-		public GridPage ()
+		public StackLayoutPage2 ()
 		{
 			InitializeComponent ();
 		}

@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace XamarinHelloWorldApp
+namespace XamarinHelloWorldApp.GridLayout
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class StackLayoutPage2 : ContentPage
+	public partial class DialGridPage : ContentPage
 	{
-		public StackLayoutPage2 ()
+		public DialGridPage ()
 		{
 			InitializeComponent ();
 		}

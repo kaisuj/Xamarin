@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace XamarinHelloWorldApp
+namespace XamarinHelloWorldApp.GridLayout
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class AbsoluteExercise2 : ContentPage
+	public partial class GridPage : ContentPage
 	{
-		public AbsoluteExercise2 ()
+		public GridPage ()
 		{
 			InitializeComponent ();
 		}

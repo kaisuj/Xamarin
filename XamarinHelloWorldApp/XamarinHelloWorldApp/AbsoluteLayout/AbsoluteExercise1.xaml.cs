@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace XamarinHelloWorldApp
+namespace XamarinHelloWorldApp.AbsoluteLayout
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class AbsolutePage : ContentPage
+	public partial class AbsoluteExercise1 : ContentPage
 	{
-		public AbsolutePage ()
+		public AbsoluteExercise1 ()
 		{
 			InitializeComponent ();
 		}

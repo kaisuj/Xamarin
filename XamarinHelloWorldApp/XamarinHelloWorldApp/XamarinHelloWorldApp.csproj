@@ -9,38 +9,42 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="AbsoluteExercise1.xaml">
+    <EmbeddedResource Update="AbsoluteLayout\AbsoluteExercise1.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="AbsoluteExercise2.xaml">
+    <EmbeddedResource Update="AbsoluteLayout\AbsoluteExercise2.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="AbsolutePage.xaml">
+    <EmbeddedResource Update="AbsoluteLayout\AbsolutePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="DialGridPage.xaml">
+    <EmbeddedResource Update="GridLayout\DialGridPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="GreetPage.xaml">
+    <EmbeddedResource Update="Basics\GreetPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="GridPage.xaml">
+    <EmbeddedResource Update="GridLayout\GridPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="QuotesPage.xaml">
+    <EmbeddedResource Update="Basics\QuotesPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="StackLayoutPage1.xaml">
+    <EmbeddedResource Update="StackLayout\StackLayoutPage1.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="StackLayoutPage2.xaml">
+    <EmbeddedResource Update="StackLayout\StackLayoutPage2.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="StackPage.xaml">
+    <EmbeddedResource Update="StackLayout\StackPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="TwitterGridPage.xaml">
+    <EmbeddedResource Update="GridLayout\TwitterGridPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="RelativeLayout\" />
   </ItemGroup>
 </Project>

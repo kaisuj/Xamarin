@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace XamarinHelloWorldApp
+namespace XamarinHelloWorldApp.AbsoluteLayout
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class TwitterGridPage : ContentPage
+	public partial class AbsolutePage : ContentPage
 	{
-		public TwitterGridPage ()
+		public AbsolutePage ()
 		{
 			InitializeComponent ();
 		}

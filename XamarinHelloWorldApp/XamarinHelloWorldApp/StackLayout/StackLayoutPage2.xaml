@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="XamarinHelloWorldApp.StackLayoutPage2">
+             x:Class="XamarinHelloWorldApp.StackLayout.StackLayoutPage2">
     <StackLayout Padding="0,20,0,0">
         <StackLayout Spacing="20" >
             <Label Text="nyc_photographer" FontSize="18" TextColor="Black" Margin="20,0,0,0"/>

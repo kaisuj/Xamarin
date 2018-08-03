@@ -7,14 +7,16 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace XamarinHelloWorldApp
+namespace XamarinHelloWorldApp.Basics
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class DialGridPage : ContentPage
+	public partial class GreetPage : ContentPage
 	{
-		public DialGridPage ()
+		public GreetPage ()
 		{
 			InitializeComponent ();
+
+            slider.Value = 0.5;
 		}
 	}
 }

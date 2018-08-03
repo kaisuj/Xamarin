@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace XamarinHelloWorldApp
+namespace XamarinHelloWorldApp.GridLayout
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class StackLayoutPage1 : ContentPage
+	public partial class TwitterGridPage : ContentPage
 	{
-		public StackLayoutPage1 ()
+		public TwitterGridPage ()
 		{
 			InitializeComponent ();
 		}

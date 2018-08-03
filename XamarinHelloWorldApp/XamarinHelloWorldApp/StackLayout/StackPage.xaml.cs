@@ -7,16 +7,14 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace XamarinHelloWorldApp
+namespace XamarinHelloWorldApp.StackLayout
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class GreetPage : ContentPage
+	public partial class StackPage : ContentPage
 	{
-		public GreetPage ()
+		public StackPage ()
 		{
 			InitializeComponent ();
-
-            slider.Value = 0.5;
 		}
 	}
 }
