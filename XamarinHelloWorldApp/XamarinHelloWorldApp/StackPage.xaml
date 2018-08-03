@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinHelloWorldApp.StackPage"
+             Padding="0,20,0,0">
+    <!--Spacing ==> Odstepy miedzy elementami stacka-->
+    <!--Padding ==> Odstepy dookola elementow stacka-->
+    <!--Orientation="Horizontal" ==> Uklada elementy stacka w poziomie-->
+    <StackLayout Orientation="Horizontal"
+                 Padding="40"
+                 Spacing="20" 
+                 VerticalOptions="Center" HorizontalOptions="Start">
+        <StackLayout>
+            <Image Source="http://placehold.it/100x100"/>
+            <Label Text="Label 1"/>
+        </StackLayout>
+        
+        <Label Text="Label 2"/>
+        <Label Text="Label 3"/>
+    </StackLayout>
+</ContentPage>

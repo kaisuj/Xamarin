@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinHelloWorldApp.QuotesPage"
+             Padding="20,20,20,20"
+             BackgroundColor="#C6E0F9">
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness"
+            Android="20,30,20,20" WinPhone="20,40,20,20">
+        </OnPlatform>
+    </ContentPage.Padding>
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="StartAndExpand" BindingContext="{x:Reference quotesSlider}">
+            <Button x:Name="nextButton" Text="Next"  HorizontalOptions="Center"
+                    TextColor="#FF243375" BackgroundColor="#FFCAD9E8" BorderColor="#5A9CD6" BorderWidth="1" BorderRadius="7"
+                    Clicked="nextButton_Clicked"/>
+            <Label Text="{Binding Value, StringFormat='Font Size: {0:F0}'}" TextColor="#0F0F0F"/>
+            <Slider x:Name="quotesSlider" Maximum="50" Minimum="16" HorizontalOptions="Fill" />
+            <Label Text="" x:Name="contentLabel" FontSize="{Binding Value}" TextColor="#0F0F0F"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
